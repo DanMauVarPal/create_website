@@ -8,7 +8,7 @@
             "type": "editor-browser",
             "request": "launch",
             "name": "Open index.html",
-            "url": "file:///home/danmau/Documents/TTU/Fall26/CS3365/create_website/index.html"
+            "url": "file:///home/danmau/Projects/create_website/index.html"
         }
     ]
 }
