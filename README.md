@@ -1,82 +1,83 @@
-# GitHub Template Repository
+# Daniel Vargas - Academic Portfolio
 
-Welcome to the GitHub template repository for the **courses (CS3361, CS3365)**! This template serves as a starting point for your first assignment of creating and deploying your portfolio. Follow the instructions below to download, customize, and push your work to your own GitHub repository.
+## Project Description
 
----
+A modern, responsive academic portfolio website showcasing my education, projects, and professional experience as a Computer Science student. The site serves as showcase for my resume, project portfolio, and contact information.
 
-## 📂 Repository Structure
-The template includes the following structure:
+## Features
 
-```
-📦create_website
- ┣ 📂files/         # Add your CV PDF inside this folder
- ┣ 📂images/        # Add your image inside this folder
- ┣ projects.html    # Update this file to add your own project details
- ┣ index.html       # Update this file for the main page of your portfolio
- ┣ 📜README.md      # Project instructions and information
- ┗ 📜LICENSE        # Licensing information
-```
+- **Professional Profile Page** – Overview of academic background, interests, and key achievements
+- **Projects Showcase** – Detailed descriptions of significant projects with technologies used
+- **CV Download** – Easy access to download a PDF version of my curriculum vitae
+- **Social Links** – Quick access to LinkedIn, GitHub, email, and university information
 
----
+## Technologies Used
 
-## 🚀 Getting Started
+- **HTML5** – Semantic markup for structured content
+- **CSS3** – Modern styling with responsive design and animations
+- **Font Awesome** – Icon library for social links and visual elements
+- **GitHub Pages** – Static site hosting and deployment
 
-### 1. **Clone or Download This Repository**  
-Clone the repository to your local machine:
+## GitHub Pages Deployment
+
+View the live portfolio here: **https://danmauvarpal.github.io/create_website/**
+
+## Viewing the Project
+
+### Online
+Simply visit the GitHub Pages link above to view the live website.
+
+### Locally
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/DanMauVarPal/[repository-name].git
+   cd [repository-name]
+   ```
+
+2. Open `index.html` in your web browser:
+   - **Windows:** Double-click `index.html`
+   - **macOS/Linux:** `open index.html` or drag the file into your browser
+
+Alternatively, use a local server (Python):
 ```bash
-git clone https://github.com/MaazAmjad/create_website.git
+python -m http.server 8080
 ```
-Alternatively, download it as a ZIP file and extract it.
+Then visit `http://localhost:8080` in your browser.
 
----
+## Project Structure
 
-### 2. **Update Your Information**  
-Make the following changes:
-- Replace placeholder information (e.g., `Your Name`, `Project Title`) with your details.
-- Add your project code and any required files in the respective folders.
-
----
-
-### 3. **Create Your GitHub Repository**  
-1. Log in to your GitHub account.  
-2. Create a new repository (**public** unless otherwise specified).  
-3. Copy the repository URL for use in the next step.
-
----
-
-### 4. **Push Your Changes to Your Repository**  
-Run the following commands to upload your project to your new repository:
-
-```bash
-# Initialize a new Git repository
-git init
-
-# Stage all changes
-git add .
-
-# Commit your changes
-git commit -m "Initial commit"
-
-# Set the main branch
-git branch -M main
-
-# Add the remote repository
-git remote add origin <your-repo-url>
-
-# Push changes to GitHub
-git push -u origin main
+```
+📦 create_website
+ ├── 📄 index.html              # Main profile page
+ ├── 📄 styles.css              # Global styling
+ ├── 📂 cv/
+ │   ├── 📄 index.html          # CV page
+ │   └── 📄 styles.css          # CV-specific styles
+ ├── 📂 projects/
+ │   ├── 📄 index.html          # Projects showcase
+ │   └── 📄 styles.css          # Projects-specific styles
+ ├── 📂 images/                 # Profile picture and logos
+ ├── 📂 files/                  # CV PDF document
+ ├── 📄 Docerfile               # Docker image receipe
+ └── 📄 README.md               # This file
 ```
 
+## Customization
+
+To personalize this portfolio:
+
+1. **Update Profile Information** – Edit `index.html` with your name, bio, and interests
+2. **Add Projects** – Modify `projects/index.html` to include your own projects
+3. **Upload Images** – Replace `images/profile.png` with your profile picture
+4. **Add Your CV** – Place your CV PDF in the `files/` folder
+5. **Update Social Links** – Modify URLs in the social links section to match your profiles
+
+## Contact
+
+- **Email:** [var28790@ttu.edu](mailto:var28790@ttu.edu)
+- **GitHub:** [github.com/DanMauVarPal](https://github.com/DanMauVarPal)
+- **LinkedIn:** [linkedin.com/in/danmauvarpal/](https://www.linkedin.com/in/danmauvarpal/)
+
 ---
 
-## 📝 Submission Instructions  
-Once you have pushed your work to GitHub, submit the repository link as per the instructions provided in the course.
-
----
-
-### ⚖️ License  
-This project template is licensed under the [MIT License](LICENSE).
-
----
-
-Celebrate and enjoy your coding experience! 🚀
+**Last Updated:** March 2025
