@@ -30,8 +30,8 @@ Simply visit the GitHub Pages link above to view the live website.
 ### Locally
 1. Clone the repository:
    ```bash
-   git clone https://github.com/DanMauVarPal/[repository-name].git
-   cd [repository-name]
+   git clone https://github.com/DanMauVarPal/create_website.git
+   cd create_website
    ```
 
 2. Open `index.html` in your web browser:
